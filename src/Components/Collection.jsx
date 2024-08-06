@@ -43,7 +43,7 @@ function NewCollection({ CollectionRef }) {
             <div className='text-4xl p-2 px-5 font-[sans-serif] font-medium h-[50px] border-l-4 border-[#E5345B]' style={{ wordSpacing: '0.3rem' }}>
                 New Collection
             </div>
-            <div className='mt-10 grid lg:grid-col-4 grid-cols-2 place-content-center gap-5'>
+            <div className='mt-10 grid lg:grid-col-4 md:grid-cols-4 grid-cols-2 place-content-center gap-5'>
                 {
                     Categories.map((e, index) => (
                         <div key={index}
